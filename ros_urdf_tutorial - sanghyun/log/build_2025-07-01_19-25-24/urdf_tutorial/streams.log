@@ -1,0 +1,44 @@
+[0.424s] Invoking command in '/home/sh0819/ros_urdf_tut/build/urdf_tutorial': PYTHONPATH=/home/sh0819/ros_urdf_tut/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build
+[0.572s] running develop
+[0.662s] Removing /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf-tutorial.egg-link (link to .)
+[0.684s] Invoked command in '/home/sh0819/ros_urdf_tut/build/urdf_tutorial' returned '0': PYTHONPATH=/home/sh0819/ros_urdf_tut/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build
+[0.685s] Invoking command in '/home/sh0819/ros_urdf_tut/src/urdf_tutorial': PYTHONPATH=/home/sh0819/ros_urdf_tut/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build install --record /home/sh0819/ros_urdf_tut/build/urdf_tutorial/install.log --install-scripts $base/lib/urdf_tutorial --single-version-externally-managed install_data --force
+[0.825s] running egg_info
+[0.826s] writing ../../build/urdf_tutorial/urdf_tutorial.egg-info/PKG-INFO
+[0.826s] writing dependency_links to ../../build/urdf_tutorial/urdf_tutorial.egg-info/dependency_links.txt
+[0.826s] writing entry points to ../../build/urdf_tutorial/urdf_tutorial.egg-info/entry_points.txt
+[0.826s] writing requirements to ../../build/urdf_tutorial/urdf_tutorial.egg-info/requires.txt
+[0.826s] writing top-level names to ../../build/urdf_tutorial/urdf_tutorial.egg-info/top_level.txt
+[0.848s] reading manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[0.849s] writing manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[0.849s] running build
+[0.849s] running build_py
+[0.849s] creating /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build
+[0.849s] creating /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build/lib
+[0.849s] creating /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build/lib/urdf_tutorial
+[0.849s] copying urdf_tutorial/__init__.py -> /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build/lib/urdf_tutorial
+[0.850s] running install
+[0.850s] running install_lib
+[0.850s] creating /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf_tutorial
+[0.850s] copying /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build/lib/urdf_tutorial/__init__.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf_tutorial
+[0.851s] byte-compiling /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf_tutorial/__init__.py to __init__.cpython-38.pyc
+[0.851s] running install_data
+[0.851s] copying resource/urdf_tutorial -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/ament_index/resource_index/packages
+[0.852s] copying package.xml -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial
+[0.852s] copying launch/robot_3.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+[0.852s] copying launch/robot_6.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+[0.852s] copying launch/sim.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+[0.852s] copying launch/robot_2.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+[0.852s] copying launch/robot_1.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+[0.852s] copying launch/robot_4.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+[0.852s] copying urdf/robot_2.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+[0.852s] copying urdf/robot_3.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+[0.852s] copying urdf/depth.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+[0.852s] copying urdf/robot_1.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+[0.853s] copying urdf/macros.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+[0.853s] copying urdf/gazebo.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+[0.853s] running install_egg_info
+[0.853s] Copying ../../build/urdf_tutorial/urdf_tutorial.egg-info to /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf_tutorial-0.0.0-py3.8.egg-info
+[0.854s] running install_scripts
+[0.864s] writing list of installed files to '/home/sh0819/ros_urdf_tut/build/urdf_tutorial/install.log'
+[0.878s] Invoked command in '/home/sh0819/ros_urdf_tut/src/urdf_tutorial' returned '0': PYTHONPATH=/home/sh0819/ros_urdf_tut/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial build --build-base /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build install --record /home/sh0819/ros_urdf_tut/build/urdf_tutorial/install.log --install-scripts $base/lib/urdf_tutorial --single-version-externally-managed install_data --force

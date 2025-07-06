@@ -1,0 +1,28 @@
+[0.563s] Invoking command in '/home/sh0819/ros_urdf_tut/build/urdf_tutorial': PYTHONPATH=/home/sh0819/ros_urdf_tut/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build --no-deps symlink_data
+[0.773s] running develop
+[0.902s] running egg_info
+[0.902s] creating urdf_tutorial.egg-info
+[0.903s] writing urdf_tutorial.egg-info/PKG-INFO
+[0.903s] writing dependency_links to urdf_tutorial.egg-info/dependency_links.txt
+[0.903s] writing entry points to urdf_tutorial.egg-info/entry_points.txt
+[0.903s] writing requirements to urdf_tutorial.egg-info/requires.txt
+[0.903s] writing top-level names to urdf_tutorial.egg-info/top_level.txt
+[0.903s] writing manifest file 'urdf_tutorial.egg-info/SOURCES.txt'
+[0.934s] reading manifest file 'urdf_tutorial.egg-info/SOURCES.txt'
+[0.935s] writing manifest file 'urdf_tutorial.egg-info/SOURCES.txt'
+[0.961s] running build_ext
+[0.961s] Creating /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/site.py
+[0.963s] Creating /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf-tutorial.egg-link (link to .)
+[0.963s] 
+[0.964s] Installed /home/sh0819/ros_urdf_tut/build/urdf_tutorial
+[0.964s] running symlink_data
+[0.964s] creating /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/ament_index
+[0.964s] creating /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/ament_index/resource_index
+[0.964s] creating /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/ament_index/resource_index/packages
+[0.964s] symbolically linking /home/sh0819/ros_urdf_tut/build/urdf_tutorial/resource/urdf_tutorial -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/ament_index/resource_index/packages
+[0.964s] symbolically linking /home/sh0819/ros_urdf_tut/build/urdf_tutorial/package.xml -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial
+[0.964s] creating /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+[0.964s] symbolically linking /home/sh0819/ros_urdf_tut/build/urdf_tutorial/launch/robot_1.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+[0.964s] creating /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+[0.964s] symbolically linking /home/sh0819/ros_urdf_tut/build/urdf_tutorial/urdf/robot_1.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+[0.989s] Invoked command in '/home/sh0819/ros_urdf_tut/build/urdf_tutorial' returned '0': PYTHONPATH=/home/sh0819/ros_urdf_tut/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build --no-deps symlink_data

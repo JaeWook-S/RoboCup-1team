@@ -1,0 +1,131 @@
+[0.145s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.145s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8da5735e20>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=32, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8da5735e20>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8da573f4c0>)
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.245s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sh0819/ros_urdf_tut'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdf_tutorial' with type 'ros.ament_python' and name 'urdf_tutorial'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sh0819/ros_urdf_tut/install
+[0.271s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/foxy
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sh0819/ros_urdf_tut/build/urdf_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sh0819/ros_urdf_tut/install/urdf_tutorial', 'merge_install': False, 'path': '/home/sh0819/ros_urdf_tut/src/urdf_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.306s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.307s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.307s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sh0819/ros_urdf_tut/src/urdf_tutorial' with build type 'ament_python'
+[0.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'ament_prefix_path')
+[0.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/hook/ament_prefix_path.ps1'
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/hook/ament_prefix_path.dsv'
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/hook/ament_prefix_path.sh'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.471s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sh0819/ros_urdf_tut/src/urdf_tutorial'
+[0.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sh0819/ros_urdf_tut/build/urdf_tutorial': PYTHONPATH=/home/sh0819/ros_urdf_tut/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build --no-deps symlink_data
+[1.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'pythonpath_develop')
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sh0819/ros_urdf_tut/build/urdf_tutorial/share/urdf_tutorial/hook/pythonpath_develop.ps1'
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sh0819/ros_urdf_tut/build/urdf_tutorial' returned '0': PYTHONPATH=/home/sh0819/ros_urdf_tut/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build --no-deps symlink_data
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sh0819/ros_urdf_tut/build/urdf_tutorial/share/urdf_tutorial/hook/pythonpath_develop.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sh0819/ros_urdf_tut/build/urdf_tutorial/share/urdf_tutorial/hook/pythonpath_develop.sh'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/sh0819/ros_urdf_tut/install/urdf_tutorial' for CMake module files
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/sh0819/ros_urdf_tut/install/urdf_tutorial' for CMake config files
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/bin'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/pkgconfig/urdf_tutorial.pc'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages'
+[1.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'pythonpath')
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/hook/pythonpath.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/hook/pythonpath.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/hook/pythonpath.sh'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/bin'
+[1.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial)
+[1.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/package.ps1'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/package.dsv'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/package.sh'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/package.bash'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/package.zsh'
+[1.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/colcon-core/packages/urdf_tutorial)
+[1.057s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.058s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.058s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.058s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.062s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.074s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sh0819/ros_urdf_tut/install/local_setup.ps1'
+[1.077s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sh0819/ros_urdf_tut/install/_local_setup_util_ps1.py'
+[1.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sh0819/ros_urdf_tut/install/setup.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sh0819/ros_urdf_tut/install/local_setup.sh'
+[1.082s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sh0819/ros_urdf_tut/install/_local_setup_util_sh.py'
+[1.083s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sh0819/ros_urdf_tut/install/setup.sh'
+[1.085s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sh0819/ros_urdf_tut/install/local_setup.bash'
+[1.086s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sh0819/ros_urdf_tut/install/setup.bash'
+[1.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sh0819/ros_urdf_tut/install/local_setup.zsh'
+[1.089s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sh0819/ros_urdf_tut/install/setup.zsh'

@@ -1,0 +1,40 @@
+running develop
+Removing /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf-tutorial.egg-link (link to .)
+running egg_info
+writing ../../build/urdf_tutorial/urdf_tutorial.egg-info/PKG-INFO
+writing dependency_links to ../../build/urdf_tutorial/urdf_tutorial.egg-info/dependency_links.txt
+writing entry points to ../../build/urdf_tutorial/urdf_tutorial.egg-info/entry_points.txt
+writing requirements to ../../build/urdf_tutorial/urdf_tutorial.egg-info/requires.txt
+writing top-level names to ../../build/urdf_tutorial/urdf_tutorial.egg-info/top_level.txt
+reading manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+writing manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build
+creating /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build/lib
+creating /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build/lib/urdf_tutorial
+copying urdf_tutorial/__init__.py -> /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build/lib/urdf_tutorial
+running install
+running install_lib
+creating /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf_tutorial
+copying /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build/lib/urdf_tutorial/__init__.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf_tutorial
+byte-compiling /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf_tutorial/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/urdf_tutorial -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/ament_index/resource_index/packages
+copying package.xml -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial
+copying launch/robot_3.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+copying launch/robot_6.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+copying launch/sim.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+copying launch/robot_2.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+copying launch/robot_1.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+copying launch/robot_4.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+copying urdf/robot_2.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+copying urdf/robot_3.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+copying urdf/depth.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+copying urdf/robot_1.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+copying urdf/macros.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+copying urdf/gazebo.xacro -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/urdf
+running install_egg_info
+Copying ../../build/urdf_tutorial/urdf_tutorial.egg-info to /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf_tutorial-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/sh0819/ros_urdf_tut/build/urdf_tutorial/install.log'

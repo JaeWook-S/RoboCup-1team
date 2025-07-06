@@ -1,0 +1,17 @@
+[0.635s] Invoking command in '/home/sh0819/ros_urdf_tut/build/urdf_tutorial': PYTHONPATH=/home/sh0819/ros_urdf_tut/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build --no-deps symlink_data
+[0.859s] running develop
+[0.985s] running egg_info
+[0.985s] writing urdf_tutorial.egg-info/PKG-INFO
+[0.985s] writing dependency_links to urdf_tutorial.egg-info/dependency_links.txt
+[0.986s] writing entry points to urdf_tutorial.egg-info/entry_points.txt
+[0.986s] writing requirements to urdf_tutorial.egg-info/requires.txt
+[0.986s] writing top-level names to urdf_tutorial.egg-info/top_level.txt
+[1.015s] reading manifest file 'urdf_tutorial.egg-info/SOURCES.txt'
+[1.016s] writing manifest file 'urdf_tutorial.egg-info/SOURCES.txt'
+[1.048s] running build_ext
+[1.048s] Creating /home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages/urdf-tutorial.egg-link (link to .)
+[1.049s] 
+[1.049s] Installed /home/sh0819/ros_urdf_tut/build/urdf_tutorial
+[1.049s] running symlink_data
+[1.049s] symbolically linking /home/sh0819/ros_urdf_tut/build/urdf_tutorial/launch/sim.launch.py -> /home/sh0819/ros_urdf_tut/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.073s] Invoked command in '/home/sh0819/ros_urdf_tut/build/urdf_tutorial' returned '0': PYTHONPATH=/home/sh0819/ros_urdf_tut/build/urdf_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0819/ros_urdf_tut/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sh0819/ros_urdf_tut/build/urdf_tutorial/build --no-deps symlink_data
